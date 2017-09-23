@@ -1,0 +1,29 @@
+{
+  "name": "sptfy-tm",
+  "version": "1.0.0",
+  "description": "spotify time machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianachang/sptfy-tm.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Ariana Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianachang/sptfy-tm/issues"
+  },
+  "homepage": "https://github.com/arianachang/sptfy-tm#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "querystring": "^0.2.0",
+    "request": "^2.82.0"
+  }
+}
